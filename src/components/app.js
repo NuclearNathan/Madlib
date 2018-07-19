@@ -6,6 +6,6 @@ export default class App extends Component {
       <div>
         <h1>DevCamp React Starter</h1>
       </div>
-    );
+);
   }
 }

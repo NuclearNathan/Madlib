@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Input from './input';
 import Content from './content';
 
-class Card extents Component {
+class Card extends Component {
   
   constructor() {
     super()
@@ -24,7 +24,7 @@ class Card extents Component {
       nounThree:'',
       celebFour:'',
       adjectiveFive: '',
-      contentVisible: false;
+      contentVisible: false
       
     }
     
@@ -44,7 +44,7 @@ class Card extents Component {
       
       if(this.state.contentVisible) {
         this.setState(INITIAL_STATE)
-      } elese {
+      } else {
         this.setState({ contentVisible: true })
       }
 
