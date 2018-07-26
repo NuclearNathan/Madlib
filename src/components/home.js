@@ -14,4 +14,10 @@ class Home extends Component {
   }
 }
 
+//things we need to fix
+//place holder
+//gray and green number
+// generate btn space
+
+
 export default Home;
